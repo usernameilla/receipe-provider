@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Recipe Search</title>
+<link rel="stylesheet" href="styles.css">
+<script>
+  window.onload = function() {
+    document.getElementById('search').value = '';
+  };
+</script>
+</head>
+<body>
+<div class="container">
+  <h1>Food Recipe Search</h1>
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search for a food...">
+    <button id="submit">Submit</button>
+    <style>
+      h1 {
+        background-image: url(pan.jpg);
+        color: white;
+      }
+    </style>
+  </div>
+  <div id="result"></div>
+  <a href="welcome.html" class="center">Go back</a>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
